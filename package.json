@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeaPhant/skyblock-stats.git"
+    "url": "git+https://github.com/derdomee/skyblock-stats.git"
   },
   "keywords": [
     "hypixel",
@@ -18,7 +18,7 @@
     "minecraft",
     "statistics"
   ],
-  "author": "LeaPhant",
+  "author": "derdomee_",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LeaPhant/skyblock-stats/issues"

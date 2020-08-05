@@ -82,6 +82,10 @@ a:hover{
     color: #f78dc2;
 }
 
+.text-highlight {
+  color: #F94EA3;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -122,113 +126,15 @@ header{
     font-weight: 600;
 }
 
-.pride-flag{
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 15px;
-    margin-left: 20px;
-    border-radius: 3px;
-    height: 20px;
-    width: 32px;
-    cursor: pointer;
-    user-select: none;
-}
-
-.pride-flag.rainbow{
-    background: linear-gradient(180deg,
-        #FF0018 0%, #FF0018 16.7%,
-        #FFA52C 16.7%, #FFA52C 33.3%,
-        #FFFF41 33.3%, #FFFF41 50%,
-        #008018 50%, #008018 66.7%,
-        #0000F9 66.7%, #0000F9 83.3%,
-        #86007D 83.3%, #86007D 100%);
-}
-
-.pride-flag.trans{
-    background: linear-gradient(180deg,
-        #5bcffa 0%, #5bcffa 20%,
-        #f5abb9 20%, #f5abb9 40%,
-        white 40%, white 60%,
-        #f5abb9 60%, #f5abb9 80%,
-        #5bcffa 80%, #5bcffa 100%);
-}
-
-.pride-flag.lesbian{
-    background: linear-gradient(180deg,
-        #d62900 0%, #d62900 20%,
-        #ff9b55 20%, #ff9b55 40%,
-        white 40%, white 60%,
-        #d362a4 60%, #d362a4 80%,
-        #a30262 80%, #a30262 100%);
-}
-
-.pride-flag.bi{
-    background: linear-gradient(180deg,
-        #d70071 0%, #d70071 40%,
-        #9c4e97 40%, #9c4e97 60%,
-        #0035aa 60%, #0035aa 100%);
-}
-
-.pride-flag.pan{
-    background: linear-gradient(180deg,
-        #ff218c 0%, #ff218c 33.3%,
-        #ffd800 33.3%, #ffd800 66.6%,
-        #21b1ff 66.6%, #21b1ff 100%);
-}
-
-.pride-flag.nb{
-    background: linear-gradient(180deg,
-        #fcf431 0%, #fcf431 25%,
-        #fcfcfc 25%, #fcfcfc 50%,
-        #9d5cd5 50%, #9d5cd5 75%,
-        #282828 75%, #282828 100%);
-}
-
-.pride-flag.ace{
-    background: linear-gradient(180deg,
-        black 0%, black 25%,
-        #a3a3a3 25%, #a3a3a3 50%,
-        white 50%, white 75%,
-        #800080 75%, #800080 100%);
-}
-
-.pride-flag.genderfluid{
-    background: linear-gradient(180deg,
-        #ff76a4 0%, #ff76a4 20%,
-        white 20%, white 40%,
-        #bf11d7 40%, #bf11d7 60%,
-        black 60%, black 80%,
-        #303cbe 80%, #303cbe 100%);
-}
-
-.pride-flag.logo{
-    background: url(../img/logo_square.png);
-    background-size: auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
-    margin-top: 12px;
-}
-
-.pride-flag::after{
-    content: "";
-}
-
-.blm-logo{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 48px;
-    height: 48px;
-    background-image: url(/resources/img/icons/blm-logo.png);
-    background-size: auto 24px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.blm-logo::after{
-    content: "";
+.logo-wrapper {
+  position: relative;
+  background: url(/resources/img/logo_square.png);
+  background-size: contain;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  top: 6px;
 }
 
 .social-button{
@@ -583,7 +489,7 @@ html.no-webp #bg_blur{
     outline: 0 !important;
 }
 
-#info_box{
+#info_box, #changelog_box{
     position: fixed;
     left: 20px;
     width: calc(30vw - 40px);
@@ -600,19 +506,23 @@ html.no-webp #bg_blur{
     overflow-y: auto;
 }
 
-html.no-transform #info_box{
+html.no-transform #info_box,
+html.no-transform #changelog_box{
     top: -100%;
 }
 
-#info_box.info-opened{
+#info_box.info-opened,
+#changelog_box.info-opened{
     transform: translateY(0%);
 }
 
-html.no-transform #info_box.opened{
+html.no-transform #info_box.opened,
+html.no-transform #changelog_box.opened{
     top: 45px;
 }
 
-#info_close{
+#info_close,
+#changelog_close{
     position: absolute;
     top: 15px;
     right: 15px;
@@ -628,11 +538,13 @@ html.no-transform #info_box.opened{
     border-radius: 5px;
 }
 
-#info_close:hover{
+#info_close:hover,
+#changelog_close:hover{
     background-color: rgba(255,255,255,0.2);
 }
 
-#info_box a{
+#info_box a,
+#changelog_box a{
     font-weight: 600;
     text-decoration: none;
     display: inline-block;
@@ -679,11 +591,13 @@ html.no-transform #info_box.opened{
     background-image: url(/resources/img/icons/discord.png);
 }
 
-#info_box .name{
+#info_box .name.,
+#changelog_box .name{
     color: rgba(255,255,255,0.7);
 }
 
-#info_box .patron{
+#info_box .patron,
+#changelog_box .patron{
     font-weight: 500;
 }
 
@@ -2078,7 +1992,8 @@ a.additional-player-stat:hover{
     min-width: 230px;
 }
 
-.stat-slayer .narrow-info-container{
+.stat-slayer .narrow-info-container,
+.stat-dungeons .narrow-info-container{
     min-width: 270px;
     padding-bottom: 30px;
 }
@@ -2751,11 +2666,13 @@ html.no-webp #error_box_wrapper{
         width: 100%;
     }
 
-    #info_box{
+    #info_box,
+    #changelog_box{
         width: 440px;
     }
 
-    #info_box_content{
+    #info_box_content,
+    #changelog_box_content{
         max-height: calc(1120px - 100px);
         overflow-y: auto;
     }
@@ -2838,7 +2755,8 @@ html.no-webp #error_box_wrapper{
         margin-left: -5px;
     }
 
-    #info_box{
+    #info_box,
+    #changelog_box{
         left: 0;
         width: 100vw;
         right: 0;
@@ -3056,7 +2974,8 @@ html.no-webp #error_box_wrapper{
         width: calc(100vw / 2 - 85px);
     }
 
-    .stat-slayer .narrow-info-container{
+    .stat-slayer .narrow-info-container,
+    .stat-dungeons .narrow-info-container{
         width: calc(100vw / 3 - 85px);
     }
 

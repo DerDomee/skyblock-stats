@@ -36,7 +36,6 @@ async function main(){
     const constants = require('./constants');
     const { SitemapStream, streamToPromise } = require('sitemap');
     const { createGzip } = require('zlib');
-    const twemoji = require('twemoji');
 
     const mongo = new MongoClient(credentials.dbUrl, { useUnifiedTopology: true });
     await mongo.connect();
@@ -106,8 +105,6 @@ async function main(){
 
         if('recaptcha_site_key' in credentials)
             output.recaptcha_site_key = credentials.recaptcha_site_key;
-
-        output.twemoji = twemoji;
 
         return output;
     }

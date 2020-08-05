@@ -489,7 +489,7 @@ html.no-webp #bg_blur{
     outline: 0 !important;
 }
 
-#info_box, #changelog_box{
+#info_box, #changelog_box, #faq_box{
     position: fixed;
     left: 20px;
     width: calc(30vw - 40px);
@@ -507,22 +507,26 @@ html.no-webp #bg_blur{
 }
 
 html.no-transform #info_box,
-html.no-transform #changelog_box{
+html.no-transform #changelog_box,
+html.no-transform #faq_box{
     top: -100%;
 }
 
 #info_box.info-opened,
-#changelog_box.info-opened{
+#changelog_box.info-opened,
+#faq_box.info-opened{
     transform: translateY(0%);
 }
 
 html.no-transform #info_box.opened,
-html.no-transform #changelog_box.opened{
+html.no-transform #changelog_box.opened,
+html.no-transform #faq_box.opened{
     top: 45px;
 }
 
 #info_close,
-#changelog_close{
+#changelog_close,
+#faq_close{
     position: absolute;
     top: 15px;
     right: 15px;
@@ -539,12 +543,14 @@ html.no-transform #changelog_box.opened{
 }
 
 #info_close:hover,
-#changelog_close:hover{
+#changelog_close:hover,
+#faq_close:hover{
     background-color: rgba(255,255,255,0.2);
 }
 
 #info_box a,
-#changelog_box a{
+#changelog_box a,
+#faq_box a{
     font-weight: 600;
     text-decoration: none;
     display: inline-block;
@@ -592,12 +598,14 @@ html.no-transform #changelog_box.opened{
 }
 
 #info_box .name.,
-#changelog_box .name{
+#changelog_box .name,
+#faq_box .name{
     color: rgba(255,255,255,0.7);
 }
 
 #info_box .patron,
-#changelog_box .patron{
+#changelog_box .patron,
+#faq_box .patron{
     font-weight: 500;
 }
 
@@ -2667,12 +2675,14 @@ html.no-webp #error_box_wrapper{
     }
 
     #info_box,
-    #changelog_box{
+    #changelog_box,
+    #faq_box{
         width: 440px;
     }
 
     #info_box_content,
-    #changelog_box_content{
+    #changelog_box_content,
+    #faq_box_content{
         max-height: calc(1120px - 100px);
         overflow-y: auto;
     }
@@ -2756,7 +2766,8 @@ html.no-webp #error_box_wrapper{
     }
 
     #info_box,
-    #changelog_box{
+    #changelog_box,
+    #faq_box{
         left: 0;
         width: 100vw;
         right: 0;

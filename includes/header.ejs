@@ -11,6 +11,7 @@
     <a href="/" id="site_name">sky.derdom.ee</a>
     <div class="social-button" id="info_button" onclick="toggleInfo()">About</div>
     <div class="social-button" id="changelog_button" onclick="toggleChangelog()">Changelog</div>
+    <div class="social-button" id="faq_button" onclick="toggleFAQ()">FAQ</div>
     <% if('donations' in extra){ %>
         <a title="Patreon" target="_blank" rel="nofollow" href="https://patreon.com/LeaPhant" class="social-button patreon"><%= extra.donations.patreon %> Patrons<div class="social-icon"></div></a>
     <% } %>
@@ -44,6 +45,19 @@
       </ul>
   </div>
 </div>
+<div id="faq_box">
+  <div onclick="toggleFAQ()" id="faq_close"></div>
+  <div id="faq_box_content">
+    	<p>
+        <strong class="text-highlight">Where are the dungeon stats?</strong><br>
+        Ask the Hypixel devs. I am already in contact with some of them. But for now, there is no documented API-Endpoint for dungeons on their side. As soon as there is data on dungeons, I will add it here ASAP.
+      </p>
+      <p>
+        <strong>Some features from original sky.lea.moe are missing! Why?</strong><br>
+        For security reasons (that are documented in the original repository), LeaPhant disabled some functions like Top-Visits-Listing on purpose. The only reason they are still visible on the original site is that Lea still has the corresponding data in her database. I don't have this data and would need to expose myself to serious security vulnerabilities if I re-enable these features. For now, some features are gone, but they may be re-implemented Soon<sup>TM</sup>.
+      </p>
+  </div>
+</div>
 <script src="/resources/js/modernizr.js"></script>
 <script>
 
@@ -58,6 +72,15 @@
 
     function toggleChangelog(){
         let changelogBox = document.querySelector('#changelog_box');
+
+        if(changelogBox.classList.contains('info-opened'))
+            changelogBox.classList.remove('info-opened')
+        else
+            changelogBox.classList.add('info-opened');
+    }
+
+    function toggleFAQ(){
+        let changelogBox = document.querySelector('#faq_box');
 
         if(changelogBox.classList.contains('info-opened'))
             changelogBox.classList.remove('info-opened')

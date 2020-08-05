@@ -5,9 +5,9 @@ services:
     volumes:
       - ./:/var/www/app
     ports:
-      - "80:32464"
+      - "32464:32464"
     expose:
-      - 80
+      - 32464
     environment:
       - NODE_ENV=production
     links:

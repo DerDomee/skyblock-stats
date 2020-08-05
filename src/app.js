@@ -10,7 +10,7 @@ async function main(){
     const cors = require('cors');
 
     const Redis = require("ioredis");
-    const redisClient = new Redis();
+    const redisClient = new Redis("redis://redis:6379/4");
 
     const axios = require('axios');
     require('axios-debug-log');

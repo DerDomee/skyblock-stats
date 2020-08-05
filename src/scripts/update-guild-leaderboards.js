@@ -5,7 +5,7 @@ async function main(){
     const _ = require('lodash');
 
     const Redis = require("ioredis");
-    const redisClient = new Redis();
+    const redisClient = new Redis("redis://redis:6379/4");
 
     const helper = require('./../helper');
     const lib = require('./../lib');

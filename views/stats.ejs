@@ -1165,6 +1165,7 @@ twitterDescription += '. Click to view more stats!'
                 <% if(!items.no_inventory){ %><div class="nav-item" data-target="inventory">Inventory</div><% } %>
                 <div class="nav-item" data-target="fishing">Fishing</div>
                 <div class="nav-item" data-target="slayer">Slayer</div>
+                <!--<div class="nav-item" data-target="dungeons">Dungeons</div>-->
                 <% if(calculated.kills.length > 0 || calculated.deaths.length > 0){ %><div class="nav-item" data-target="kills">Kills</div><% } %>
                 <div class="nav-item" data-target="minions">Minions</div>
                 <% if(Object.keys(calculated.collections).length > 0){ %><div class="nav-item" data-target="collections">Collections</div><% } %>
@@ -1731,6 +1732,13 @@ twitterDescription += '. Click to view more stats!'
                     <% } %>
                 <% } %>
             </div>
+        </div>
+        <!--<div data-stat="dungeons" class="stat-container stat-dungeons">
+          <div class="stat-anchor"></div>
+          <div class="stat-header"><span>Dungeons</span></div>
+          <div class="stat-content">-->
+
+          </div>
         </div>
         <% if(calculated.kills.length > 0 || calculated.deaths.length > 0){
             let totalKills = calculated.kills.length;

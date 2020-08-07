@@ -7,11 +7,11 @@ This project allows you to share your <a href="https://hypixel.net//">Hypixel</a
 
 <h2 align="center">Screenshot</h1>
 
-<p align="center"><img src="https://imgur.com/a/2wiJ2XX"></p>
+<p align="center"><img src="https://i.imgur.com/1If8LzT.png"></p>
 
 <h2 align="center">Contributing</h1>
 
-Contributions are unlikely to be accepted as I am no longer actively maintaining this project. Critical bugs might still be fixed when reported in the <a href="../../issues">Issues</a> section.
+I am very thankful over every contribution. Just fork this project, do your changes and create a pull request here.
 
 <h3>Prerequisites</h3>
 

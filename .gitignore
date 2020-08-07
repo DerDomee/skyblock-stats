@@ -73,3 +73,6 @@ db.json
 
 # custom dyed leather armor cache
 public/resourcepacks/**/leatherCache
+
+# docker volume directory
+data/

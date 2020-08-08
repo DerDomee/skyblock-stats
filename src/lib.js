@@ -1824,7 +1824,8 @@ module.exports = {
             if(petData.stats != undefined){
               let petstats = []
               petData['stats'][pet.rarity].forEach((statistic, i) => {
-                currentBonus = statistic.base + pet.level.level * statistic.scaling
+                currentBonus = statistic.base + (pet.level.level-1) * statistic.scaling;
+                currentBonus = currentBonus.toFixed(statistic.rounding);
                 petstats.push('§7' + statistic.stat + ": §c+" + currentBonus + statistic.suffix)
               });
               petData['abilities'][pet.rarity].forEach((ability, i) => {
@@ -1832,7 +1833,7 @@ module.exports = {
                 petstats.push('§6' + ability.name);
                 ability.lore.forEach((line, i) => {
                   ability.scalings.forEach((scaling, i) => {
-                    currentValue = scaling.base + pet.level.level * scaling.scaling;
+                    currentValue = scaling.base + (pet.level.level-1) * scaling.scaling;
                     currentValue = currentValue.toFixed(scaling.rounding);
                     line = line.replace('{{'+ scaling.name +'}}', currentValue);
                   });

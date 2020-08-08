@@ -767,7 +767,7 @@ module.exports = {
     			{
     				name: "speed",
     				base: 1.1,
-    				scaling: 1.09898989899,
+    				scaling: 1.09898989898999,
     				rounding: 1
     			}
     		],
@@ -790,7 +790,7 @@ module.exports = {
     			{
     				name: "speed",
     				base: 1.1,
-    				scaling: 1.2,
+    				scaling: 1.201010101,
     				rounding: 1
     			}
     		],
@@ -2123,7 +2123,7 @@ module.exports = {
     		  {
     			name: "speed",
     			base: 1,
-    			scaling: 1.5,
+    			scaling: 1.50505050505,
     			rounding: 1
     		  }
     		],
@@ -3069,7 +3069,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gives §c{{waterstrength}} Strength §7and §a{{waterdefense}} §7when near water."
+    		  "§7Gives §c{{waterstrength}} Strength §7and §a{{waterdefense}} Defense §7when near water."
     	    ]
     	  }
     	],
@@ -3105,7 +3105,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gives §c{{waterstrength}} Strength §7and §a{{waterdefense}} §7when near water."
+    		  "§7Gives §c{{waterstrength}} Strength §7and §a{{waterdefense}} Defense §7when near water."
     	    ]
     	  }
     	],
@@ -3141,7 +3141,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gives §c{{waterstrength}} Strength §7and §a{{waterdefense}} §7when near water."
+    		  "§7Gives §c{{waterstrength}} Strength §7and §a{{waterdefense}} Defense §7when near water."
     	    ]
     	  },
     	  {
@@ -5355,7 +5355,7 @@ module.exports = {
     			],
     			lore: [
     			  "§7Gain §c{{health}} Health §7for",
-    			  "§7every §210 Defense§7."
+    			  "§7every §a10 Defense§7."
     			]
     		}
     	],
@@ -5387,7 +5387,7 @@ module.exports = {
     			],
     			lore: [
     			  "§7Gain §c{{health}} Health §7for",
-    			  "§7every §210 Defense§7."
+    			  "§7every §a10 Defense§7."
     			]
     		}
     	],
@@ -5419,7 +5419,7 @@ module.exports = {
     			],
     			lore: [
     			  "§7Gain §c{{health}} Health §7for",
-    			  "§7every §210 Defense§7."
+    			  "§7every §a10 Defense§7."
     			]
     		},
     		{
@@ -6055,7 +6055,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Upon consuming an ender pearl, gain §f+{{speed}}% speed§7 for 10 seconds."
+    		  "§7Upon consuming an ender pearl, gain §f+{{speed}} speed§7 for 10 seconds."
     		]
     	  }
     	]
@@ -7112,7 +7112,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Increases §aDefense §7of all undead armor sets by §a{{undeadbuff}}%§7."
+    		  "§7Increases §aDefense §7of all undead armor sets by §f{{undeadbuff}}%§7."
     	    ]
     	  }
     	]
@@ -7752,6 +7752,117 @@ module.exports = {
     		],
     		lore: [
     		  "§7Grants §b+{{magicfind}} Magic Find§7."
+    		]
+    	  }
+    	]
+      }
+    },
+    "GOLEM": {
+      head: "/head/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714",
+      type: "combat",
+      emoji: "🗿",
+      stats: {
+    	epic: [
+    		{
+    			stat: "Health",
+    			base: 1,
+    			scaling: 1.50505050505,
+    			suffix: ""
+    		},
+    		{
+    			stat: "Strength",
+    			base: 0,
+    			scaling: 0.50505050505,
+    			suffix: ""
+    		}
+    	],
+    	legendary: [
+    		{
+    			stat: "Health",
+    			base: 1,
+    			scaling: 1.50505050505,
+    			suffix: ""
+    		},
+    		{
+    			stat: "Strength",
+    			base: 0,
+    			scaling: 0.50505050505,
+    			suffix: ""
+    		}
+    	]
+      },
+      abilities: {
+    	epic: [
+    	  {
+    		name: "Last Stand",
+    		scalings: [
+    		  {
+    			name: "boost",
+    			base: 0.3,
+    			scaling: 0.3,
+    			rounding: 1
+    		  }
+    		],
+    		lore: [
+    		  "§7While below 15% HP, deal §f{{boost}}% §7more damage."
+    		]
+    	  },
+    	  {
+    		name: "Ricochet",
+    		scalings: [
+    		  {
+    			name: "boost",
+    			base: 0.2,
+    			scaling: 0.2,
+    			rounding: 1
+    		  }
+    		],
+    		lore: [
+    		  "§7Your iron plating causes §f{{boost}}% §7of attacks to ricochet and hit the attacker."
+    		]
+    	  }
+    	],
+    	legendary: [
+    	  {
+    		name: "Last Stand",
+    		scalings: [
+    		  {
+    			name: "boost",
+    			base: 0.3,
+    			scaling: 0.3,
+    			rounding: 1
+    		  }
+    		],
+    		lore: [
+    		  "§7While below 15% HP, deal §f{{boost}}% §7more damage."
+    		]
+    	  },
+    	  {
+    		name: "Ricochet",
+    		scalings: [
+    		  {
+    			name: "boost",
+    			base: 0.2,
+    			scaling: 0.250505,
+    			rounding: 1
+    		  }
+    		],
+    		lore: [
+    		  "§7Your iron plating causes §f{{boost}}% §7of attacks to ricochet and hit the attacker."
+    		]
+    	  },
+    	  {
+    		name: "Toss",
+    		scalings: [
+    		  {
+    			name: "boost",
+    			base: 203,
+    			scaling: 3,
+    			rounding: 1
+    		  }
+    		],
+    		lore: [
+    		  "§7Every 5 hits, throw the enemy up into the air and deal §f{{boost}}% §7damage (10s cooldown)."
     		]
     	  }
     	]

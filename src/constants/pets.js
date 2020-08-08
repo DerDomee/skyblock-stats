@@ -3680,7 +3680,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Adds §f+{{weapondmgbuff}} §7Damage to your weapons."
+    		  "§7Adds §f+{{weapondmgbuff}} Damage §7to your weapons."
     	    ]
     	  }
     	],
@@ -3696,7 +3696,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Adds §f+{{weapondmgbuff}} §7Damage to your weapons."
+    		  "§7Adds §f+{{weapondmgbuff}} Damage §7to your weapons."
     	    ]
     	  }
     	],
@@ -3712,7 +3712,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Adds §f+{{weapondmgbuff}} §7Damage to your weapons."
+    		  "§7Adds §f+{{weapondmgbuff}} Damage §7to your weapons."
     	    ]
     	  },
     	  {
@@ -3742,7 +3742,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Adds §f+{{weapondmgbuff}} §7Damage to your weapons."
+    		  "§7Adds §f+{{weapondmgbuff}} Damage §7to your weapons."
     	    ]
     	  },
     	  {
@@ -3772,7 +3772,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Adds §f+{{weapondmgbuff}} §7Damage to your weapons."
+    		  "§7Adds §f+{{weapondmgbuff}} Damage §7to your weapons."
     	    ]
     	  },
     	  {
@@ -3971,7 +3971,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Your freezing aura slows enemiy attacks causing you to take §f{{reduce}}% §7reduced damage."
+    		  "§7Your freezing aura slows enemy attacks causing you to take §f{{reduce}}% §7reduced damage."
     		]
     	  },
     	  {
@@ -6913,7 +6913,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.3030303,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Health",
@@ -6927,7 +6927,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.3030303,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Health",
@@ -6941,7 +6941,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.3030303,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Health",
@@ -6955,7 +6955,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.3030303,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Health",
@@ -6969,7 +6969,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.3030303,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Health",

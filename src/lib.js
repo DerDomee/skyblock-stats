@@ -1821,6 +1821,23 @@ module.exports = {
 
             lore.push('');
 
+            if(petData.stats != undefined){
+              console.log('Pet Type: ' + pet.type);
+              console.log('Pet Level: ' + pet.level.level);
+              console.log('Pet Rarity: ' + pet.rarity);
+              console.log(petData['stats'][pet.rarity]);
+              let petstats = []
+              petData['stats'][pet.rarity].forEach((statistic, i) => {
+                currentBonus = statistic.base + pet.level.level * statistic.scaling
+                petstats.push('§7' + statistic.stat + ": §c+" + currentBonus + statistic.suffix)
+              });
+
+              petstats.forEach((item, i) => {
+                lore.push(item);
+              });
+              lore.push('')
+
+            }
             if(pet.level.level < 100){
                 lore.push(
                     `§7Progress to Level ${pet.level.level + 1}: §e${(pet.level.progress * 100).toFixed(1)}%`

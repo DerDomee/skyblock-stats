@@ -146,7 +146,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	],
     	uncommon: [
@@ -160,7 +160,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	],
     	rare: [
@@ -174,7 +174,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	],
     	epic: [
@@ -188,7 +188,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	],
     	legendary: [
@@ -202,7 +202,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	]
       },
@@ -674,7 +674,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.2525252525,
-    			suffix: "%"
+    			suffix: ""
     		}
     	],
     	uncommon: [
@@ -688,7 +688,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.2525252525,
-    			suffix: "%"
+    			suffix: ""
     		}
     	],
     	rare: [
@@ -702,7 +702,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.2525252525,
-    			suffix: "%"
+    			suffix: ""
     		}
     	],
     	epic: [
@@ -716,7 +716,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.2525252525,
-    			suffix: "%"
+    			suffix: ""
     		}
     	],
     	legendary: [
@@ -730,7 +730,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.2525252525,
-    			suffix: "%"
+    			suffix: ""
     		}
     	]
       },
@@ -767,12 +767,12 @@ module.exports = {
     			{
     				name: "speed",
     				base: 1.1,
-    				scaling: 1.0989899,
+    				scaling: 1.09898989899,
     				rounding: 1
     			}
     		],
     		lore: [
-    		  "§7Increases the speed of your mount by §f{{speed}}%§7."
+    		  "§7Increases the speed of your mount by §f{{speed}}§7."
     		]
     	  }
     	],
@@ -795,7 +795,7 @@ module.exports = {
     			}
     		],
     		lore: [
-    		  "§7Increases the speed of your mount by §f{{speed}}%§7."
+    		  "§7Increases the speed of your mount by §f{{speed}}§7."
     		]
     	  }
     	],
@@ -818,7 +818,7 @@ module.exports = {
     			}
     		],
     		lore: [
-    		  "§7Increases the speed of your mount by §f{{speed}}%§7."
+    		  "§7Increases the speed of your mount by §f{{speed}}§7."
     		]
     	  },
     	  {
@@ -832,7 +832,7 @@ module.exports = {
     			}
     		],
     		lore: [
-    		  "§7While riding your horse, gain  §f{{damage}}%§7 bow damage."
+    		  "§7While riding your horse, gain  §f{{damage}}§7 bow damage."
     		]
     	  },
     	  {
@@ -1290,7 +1290,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Deal §f{{damage}}§7 extra damage to monsters level 100 and up."
+    		  "§7Deal §f{{damage}}%§7 extra damage to monsters level 100 and up."
     		]
     	  }
     	]
@@ -1312,7 +1312,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.20202020202,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	],
     	uncommon: [
@@ -1326,7 +1326,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.20202020202,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	],
     	rare: [
@@ -1340,7 +1340,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.20202020202,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	],
     	epic: [
@@ -1354,7 +1354,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.20202020202,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	],
     	legendary: [
@@ -1368,7 +1368,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.20202020202,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	]
       },
@@ -2123,7 +2123,7 @@ module.exports = {
     		  {
     			name: "speed",
     			base: 1,
-    			scaling: 0.20202020202,
+    			scaling: 1.5,
     			rounding: 1
     		  }
     		],
@@ -2164,7 +2164,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.1010101,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "True Defense",
@@ -2190,7 +2190,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.1010101,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "True Defense",
@@ -2216,7 +2216,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.1010101,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "True Defense",
@@ -2242,7 +2242,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.1010101,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "True Defense",
@@ -2268,7 +2268,7 @@ module.exports = {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.1010101,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "True Defense",
@@ -2343,7 +2343,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 ofr every nearby wolf (max 10)."
+    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 of every nearby wolf (max 10)."
     	    ]
     	  }
     	],
@@ -2373,7 +2373,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 ofr every nearby wolf (max 10)."
+    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 of every nearby wolf (max 10)."
     	    ]
     	  }
     	],
@@ -2403,7 +2403,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 ofr every nearby wolf (max 10)."
+    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 of every nearby wolf (max 10)."
     	    ]
     	  },
     	  {
@@ -2698,7 +2698,7 @@ module.exports = {
     		  {
     			name: "duration",
     			base: 2,
-    			scaling: 0.202020202,
+    			scaling: 0.0202020202,
     			rounding: 1
     		  }
     		],
@@ -3362,13 +3362,13 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.5050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	uncommon: [
@@ -3382,13 +3382,13 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.5050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	rare: [
@@ -3402,13 +3402,13 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.5050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	epic: [
@@ -3422,13 +3422,13 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.5050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	legendary: [
@@ -3442,13 +3442,13 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  },
     	  {
     		stat: "Crit Damage",
     		base: 0,
     		scaling: 0.5050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	]
       },
@@ -3907,12 +3907,12 @@ module.exports = {
     		  {
     			name: "strengthboost",
     			base: 5.2,
-    			scaling: 0.14949494,
+    			scaling: 0.250505050505,
     			rounding: 1
     		  }
     		],
     		lore: [
-    		  "§7Gives §c+{{strengthboost}} §7to players within 20 Blocks (doesn't stack)."
+    		  "§7Gives §c+{{strengthboost}} Strength§7 to players within 20 Blocks (doesn't stack)."
     	    ]
     	  }
     	]
@@ -3971,14 +3971,14 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Your freezing aura slows enemiy attacks causing you to take §a{{reduce}}% §7reduced damage."
+    		  "§7Your freezing aura slows enemiy attacks causing you to take §f{{reduce}}% §7reduced damage."
     		]
     	  },
     	  {
     		name: "Snow Cannon",
     		scalings: [],
     		lore: [
-    		  "§7Your snowman fires a snowball dealing §a5x§7 your §cStrength§7 when a mob gets close to you (1s cooldown)"
+    		  "§7Your snowman fires a snowball dealing §f5x§7 your §cStrength§7 when a mob gets close to you (1s cooldown)"
     		]
     	  }
     	]
@@ -4319,8 +4319,8 @@ module.exports = {
               }
             ],
             lore: [
-              "§7Gain §c+{{intelligence}} Intelligence",
-              "§7and §b+{{strength}} Strength §7for each",
+              "§7Gain §b+{{intelligence}} Intelligence",
+              "§7and §c+{{strength}} Strength §7for each",
               "§7nearby bee.",
               "",
               "§7(Max 15 Bees)"
@@ -4360,8 +4360,8 @@ module.exports = {
               }
             ],
             lore: [
-              "§7Gain §c+{{intelligence}} Intelligence",
-              "§7and §b+{{strength}} Strength §7for each",
+              "§7Gain §b+{{intelligence}} Intelligence",
+              "§7and §c+{{strength}} Strength §7for each",
               "§7nearby bee.",
               "",
               "§7(Max 15 Bees)"
@@ -4459,7 +4459,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Deal §7+{{damage}}%§7 more damage to end mobs."
+    		  "§7Deal §f+{{damage}}%§7 more damage to end mobs."
     		]
     	  },
     	  {
@@ -4479,7 +4479,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Buffs the Aspect of the Dragons sword by $f+{{damage}} Damage §7and §c+{{strength}} Strength§7."
+    		  "§7Buffs the Aspect of the Dragons sword by §f+{{damage}} Damage §7and §c+{{strength}} Strength§7."
     		]
     	  }
     	],
@@ -4495,7 +4495,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Deal §7+{{damage}}%§7 more damage to end mobs."
+    		  "§7Deal §f+{{damage}}%§7 more damage to end mobs."
     		]
     	  },
     	  {
@@ -4515,7 +4515,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Buffs the Aspect of the Dragons sword by $f+{{damage}} Damage §7and §c+{{strength}} Strength§7."
+    		  "§7Buffs the Aspect of the Dragons sword by §f+{{damage}} Damage §7and §c+{{strength}} Strength§7."
     		]
     	  },
     	  {
@@ -4999,7 +4999,7 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	uncommon: [
@@ -5013,7 +5013,7 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	rare: [
@@ -5027,7 +5027,7 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	epic: [
@@ -5041,7 +5041,7 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	legendary: [
@@ -5055,7 +5055,7 @@ module.exports = {
     		stat: "Crit Chance",
     		base: 0,
     		scaling: 0.05050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	]
       },
@@ -5223,62 +5223,72 @@ module.exports = {
       stats: {
     	common: [
     		{
-    			name: "Health",
+    			stat: "Health",
     			base: 1,
-    			scaling: 1
+    			scaling: 1,
+          suffix: ""
     		},
     		{
-    			name: "Intelligence",
+    			stat: "Intelligence",
     			base: 0,
-    			scaling: 0.75757575
+    			scaling: 0.75757575,
+          suffix: ""
     		}
     	],
     	uncommon: [
     		{
-    			name: "Health",
+    			stat: "Health",
     			base: 1,
-    			scaling: 1
+    			scaling: 1,
+          suffix: ""
     		},
     		{
-    			name: "Intelligence",
+    			stat: "Intelligence",
     			base: 0,
-    			scaling: 0.75757575
+    			scaling: 0.75757575,
+          suffix: ""
     		}
     	],
     	rare: [
     		{
-    			name: "Health",
+    			stat: "Health",
     			base: 1,
-    			scaling: 1
+    			scaling: 1,
+          suffix: ""
     		},
     		{
-    			name: "Intelligence",
+    			stat: "Intelligence",
     			base: 0,
-    			scaling: 0.75757575
+    			scaling: 0.75757575,
+          suffix: ""
     		}
     	],
     	epic: [
     		{
-    			name: "Health",
+    			stat: "Health",
     			base: 1,
-    			scaling: 1
+    			scaling: 1,
+          suffix: ""
     		},
     		{
-    			name: "Intelligence",
+    			stat: "Intelligence",
     			base: 0,
-    			scaling: 0.75757575
+    			scaling: 0.75757575,
+          suffix: ""
     		}
     	],
     	legendary: [
     		{
-    			name: "Health",
+    			stat: "Health",
     			base: 1,
-    			scaling: 1
+    			scaling: 1,
+          suffix: ""
     		},
     		{
-    			name: "Intelligence",
+    			stat: "Intelligence",
     			base: 0,
     			scaling: 0.75757575,
+          suffix: ""
     		}
     	]
       },
@@ -5295,7 +5305,7 @@ module.exports = {
     			  }
     			],
     			lore: [
-    			  "§7Gain §2{{defense}} Defense §7for",
+    			  "§7Gain §a{{defense}} Defense §7for",
     			  "§7every §f100 Speed§7."
     			]
     		}
@@ -5312,7 +5322,7 @@ module.exports = {
     			  }
     			],
     			lore: [
-    			  "§7Gain §2{{defense}} Defense §7for",
+    			  "§7Gain §a{{defense}} Defense §7for",
     			  "§7every §f100 Speed§7."
     			]
     		}
@@ -5329,7 +5339,7 @@ module.exports = {
     			  }
     			],
     			lore: [
-    			  "§7Gain §2{{defense}} Defense §7for",
+    			  "§7Gain §a{{defense}} Defense §7for",
     			  "§7every §f100 Speed§7."
     			]
     		},
@@ -5361,7 +5371,7 @@ module.exports = {
     			  }
     			],
     			lore: [
-    			  "§7Gain §2{{defense}} Defense §7for",
+    			  "§7Gain §a{{defense}} Defense §7for",
     			  "§7every §f100 Speed§7."
     			]
     		},
@@ -5393,7 +5403,7 @@ module.exports = {
     			  }
     			],
     			lore: [
-    			  "§7Gain §2{{defense}} Defense §7for",
+    			  "§7Gain §a{{defense}} Defense §7for",
     			  "§7every §f100 Speed§7."
     			]
     		},
@@ -5418,12 +5428,12 @@ module.exports = {
     			  {
     				name: "chance",
     				base: 0,
-    				scaling: 0.0101010101,
+    				scaling: 0.2525252525,
     				rounding: 1
     			  }
     			],
     			lore: [
-    			  "§Grants a §f{{chance}}% §7chance to get",
+    			  "§7Grants a §f{{chance}}% §7chance to get",
     			  "§7double crops while farming."
     			]
     		}
@@ -6198,8 +6208,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7While in dungeons, increases your base health",
-    		  "§7regen by §a{{increasehealthregen}}% §7and heals players withing 8 blocks",
+    		  "§7While in dungeons, increases your base health §7regen by §f{{increasehealthregen}}% §7and heals players withing 8 blocks",
     		  "§7by up to 10hp/s."
     	    ]
     	  },
@@ -6227,7 +6236,7 @@ module.exports = {
     		],
     		lore: [
     		  "§7While in dungeons, increases your base health",
-    		  "§7regen by §a{{increasehealthregen}}% §7and heals players withing 8 blocks",
+    		  "§7regen by §f{{increasehealthregen}}% §7and heals players withing 8 blocks",
     		  "§7by up to 10hp/s."
     	    ]
     	  },
@@ -6625,7 +6634,7 @@ module.exports = {
     			}
     		],
     		lore: [
-    		  "§7While sitting on your rock, gain §2+{{defense}}% defense§7."
+    		  "§7While sitting on your rock, gain §a+{{defense}}% defense§7."
     		]
     	  }
     	],
@@ -6655,7 +6664,7 @@ module.exports = {
     			}
     		],
     		lore: [
-    		  "§7While sitting on your rock, gain §2+{{defense}}% defense§7."
+    		  "§7While sitting on your rock, gain §a+{{defense}}% defense§7."
     		]
     	  }
 
@@ -6686,7 +6695,7 @@ module.exports = {
     			}
     		],
     		lore: [
-    		  "§7While sitting on your rock, gain §2+{{defense}}% defense§7."
+    		  "§7While sitting on your rock, gain §a+{{defense}}% defense§7."
     		]
     	  },
 
@@ -7125,7 +7134,7 @@ module.exports = {
     		stat: "Sea Creature Chance",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	uncommon: [
@@ -7139,7 +7148,7 @@ module.exports = {
     		stat: "Sea Creature Chance",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	rare: [
@@ -7153,7 +7162,7 @@ module.exports = {
     		stat: "Sea Creature Chance",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	epic: [
@@ -7167,7 +7176,7 @@ module.exports = {
     		stat: "Sea Creature Chance",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	],
     	legendary: [
@@ -7181,7 +7190,7 @@ module.exports = {
     		stat: "Sea Creature Chance",
     		base: 0,
     		scaling: 0.0505050505,
-    		suffix: ""
+    		suffix: "%"
     	  }
     	]
       },
@@ -7371,7 +7380,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gives 0.5 §cStrength §7and §9Crit Damage §7when near snow."
+    		  "§7Gives §c{{snowstrength}} Strength §7and §9{{snowcritdamage}} Crit Damage §7when near snow."
     	    ]
     	  },
     	  {
@@ -7385,7 +7394,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gain {{strengthasdefense}} of your strength as §aDefense§7."
+    		  "§7Gain §f{{strengthasdefense}}% §7of your strength as §aDefense§7."
     	    ]
     	  }
     	],
@@ -7407,7 +7416,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gives 0.5 §cStrength §7and §9Crit Damage §7when near snow."
+    		  "§7Gives §c{{snowstrength}} Strength §7and §9{{snowcritdamage}} Crit Damage §7when near snow."
     	    ]
     	  },
     	  {
@@ -7421,7 +7430,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gain {{strengthasdefense}} of your strength as §aDefense§7."
+    		  "§7Gain §f{{strengthasdefense}}% §7of your strength as §aDefense§7."
     	    ]
     	  },
     	  {
@@ -7441,119 +7450,8 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Buffs the Yeti sword by §f{{yetibuffdamage}} Damage and §b{{yetibuffintel}} Intelligence§7."
+    		  "§7Buffs the Yeti sword by §f{{yetibuffdamage}} Damage §7and §b{{yetibuffintel}} Intelligence§7."
     	    ]
-    	  }
-    	]
-      }
-    },
-    "GOLEM": {
-      head: "/head/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714",
-      type: "combat",
-      emoji: "🗿",
-      stats: {
-    	epic: [
-    		{
-    			stat: "Health",
-    			base: 1,
-    			scaling: 1.50505050505,
-    			suffix: ""
-    		},
-    		{
-    			stat: "Strength",
-    			base: 0,
-    			scaling: 0.50505050505,
-    			suffix: ""
-    		}
-    	],
-    	legendary: [
-    		{
-    			stat: "Health",
-    			base: 1,
-    			scaling: 1.50505050505,
-    			suffix: ""
-    		},
-    		{
-    			stat: "Strength",
-    			base: 0,
-    			scaling: 0.50505050505,
-    			suffix: ""
-    		}
-    	]
-      },
-      abilities: {
-    	epic: [
-    	  {
-    		name: "Last Stand",
-    		scalings: [
-    		  {
-    			name: "boost",
-    			base: 0.3,
-    			scaling: 0.3,
-    			rounding: 1
-    		  }
-    		],
-    		lore: [
-    		  "§7While below 15% HP, deal §f{{boost}}% §7more damage."
-    		]
-    	  },
-    	  {
-    		name: "Ricochet",
-    		scalings: [
-    		  {
-    			name: "boost",
-    			base: 0.2,
-    			scaling: 0.2,
-    			rounding: 1
-    		  }
-    		],
-    		lore: [
-    		  "§7Your iron plating causes §f{{boost}}% §7of attacks to ricochet and hit the attacker."
-    		]
-    	  }
-    	],
-    	legendary: [
-    	  {
-    		name: "Last Stand",
-    		scalings: [
-    		  {
-    			name: "boost",
-    			base: 0.3,
-    			scaling: 0.3,
-    			rounding: 1
-    		  }
-    		],
-    		lore: [
-    		  "§7While below 15% HP, deal §f{{boost}}% §7more damage."
-    		]
-    	  },
-    	  {
-    		name: "Ricochet",
-    		scalings: [
-    		  {
-    			name: "boost",
-    			base: 0.2,
-    			scaling: 0.250505,
-    			rounding: 1
-    		  }
-    		],
-    		lore: [
-    		  "§7Your iron plating causes §f{{boost}}% §7of attacks to ricochet and hit the attacker."
-    		]
-    	  },
-    	  {
-    		name: "Toss",
-    		scalings: [
-    		  {
-    			name: "boost",
-    			base: 203,
-    			scaling: 3,
-    			rounding: 1
-    		  }
-    		],
-    		lore: [
-    		  "§7Every 5 hits, throw the enemy up into the air and deal §f{{boost}}% §7damage (10s cooldown)."
-    		]
     	  }
     	]
       }
@@ -7567,7 +7465,7 @@ module.exports = {
     	  {
     		stat: "Strength",
     		base: 0,
-    		scaling: 0.404040404,
+    		scaling: 0.04949494949,
     		suffix: ""
     	  },
     	  {
@@ -7581,7 +7479,7 @@ module.exports = {
     	  {
     		stat: "Strength",
     		base: 0,
-    		scaling: 0.404040404,
+    		scaling: 0.04949494949,
     		suffix: ""
     	  },
     	  {
@@ -7676,7 +7574,7 @@ module.exports = {
       stats: {
     	epic: [
     		{
-    			stat: "Crit Damage",
+    			stat: "Crit Chance",
     			base: 0,
     			scaling: 0.1010101,
     			suffix: "%"
@@ -7685,7 +7583,7 @@ module.exports = {
     			stat: "Crit Damage",
     			base: 0,
     			scaling: 0.303030303,
-    			suffix: ""
+    			suffix: "%"
     		},
     		{
     			stat: "Strength",
@@ -7696,7 +7594,7 @@ module.exports = {
     	],
     	legendary: [
     		{
-    			stat: "Crit Damage",
+    			stat: "Crit Chance",
     			base: 0,
     			scaling: 0.1010101,
     			suffix: "%"
@@ -7705,7 +7603,7 @@ module.exports = {
     			stat: "Crit Damage",
     			base: 0,
     			scaling: 0.303030303,
-    			suffix: ""
+    			suffix: "%"
     		},
     		{
     			stat: "Strength",
@@ -7808,7 +7706,7 @@ module.exports = {
     		stat: "Speed",
     		base: 0,
     		scaling: 0.25252525,
-    		suffix: "%"
+    		suffix: ""
     	  }
     	]
       },
@@ -7825,7 +7723,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Increases your speed and speed cap by §f+{{speed}}%§7."
+    		  "§7Increases your speed and speed cap by §f+{{speed}}§7."
     		]
     	  },
     	  {
@@ -7906,7 +7804,7 @@ module.exports = {
     		name: "Spirit Leap",
     		scalings: [],
     		lore: [
-    		  "§7Grants a §a+10%§7 chance for mini-bosses in dungeons to drop 5 Spirit Leap Pearls"
+    		  "§7Grants a §f+10%§7 chance for mini-bosses in dungeons to drop 5 Spirit Leap Pearls"
     		]
     	  }
     	],
@@ -7922,7 +7820,7 @@ module.exports = {
     		name: "Spirit Leap",
     		scalings: [],
     		lore: [
-    		  "§7Grants a §a+10%§7 chance for mini-bosses in dungeons to drop 5 Spirit Leap Pearls"
+    		  "§7Grants a §f+10%§7 chance for mini-bosses in dungeons to drop 5 Spirit Leap Pearls"
     		]
     	  },
     	  {

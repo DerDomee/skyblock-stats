@@ -1822,15 +1822,25 @@ module.exports = {
             lore.push('');
 
             if(petData.stats != undefined){
-              console.log('Pet Type: ' + pet.type);
-              console.log('Pet Level: ' + pet.level.level);
-              console.log('Pet Rarity: ' + pet.rarity);
-              console.log(petData['stats'][pet.rarity]);
               let petstats = []
               petData['stats'][pet.rarity].forEach((statistic, i) => {
                 currentBonus = statistic.base + pet.level.level * statistic.scaling
                 petstats.push('§7' + statistic.stat + ": §c+" + currentBonus + statistic.suffix)
               });
+              petData['abilities'][pet.rarity].forEach((ability, i) => {
+                petstats.push('')
+                petstats.push('§6' + ability.name);
+                ability.lore.forEach((line, i) => {
+                  ability.scalings.forEach((scaling, i) => {
+                    currentValue = scaling.base + pet.level.level * scaling.scaling;
+                    currentValue = currentValue.toFixed(scaling.rounding);
+                    line = line.replace('{{'+ scaling.name +'}}', currentValue);
+                  });
+                  petstats.push(line);
+                });
+
+              });
+
 
               petstats.forEach((item, i) => {
                 lore.push(item);

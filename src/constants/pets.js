@@ -982,7 +982,7 @@ module.exports = {
     			}
     		],
     		lore: [
-    		  "§Actually adds §f{{damage}}§7 damage to the Aspect of the Jerry."
+    		  "§Actually adds §f{{damage}} Damage §7to the Aspect of the Jerry."
     		]
     	  }
     	]
@@ -2343,7 +2343,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 of every nearby wolf (max 10)."
+    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 for every nearby wolf (max 10)."
     	    ]
     	  }
     	],
@@ -2373,7 +2373,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 of every nearby wolf (max 10)."
+    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 for every nearby wolf (max 10)."
     	    ]
     	  }
     	],
@@ -2403,7 +2403,7 @@ module.exports = {
     		  }
     		],
     		lore: [
-    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 of every nearby wolf (max 10)."
+    		  "§7Gain §9{{dmgperlevel}}% Crit Damage §7 for every nearby wolf (max 10)."
     	    ]
     	  },
     	  {

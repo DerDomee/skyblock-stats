@@ -6278,7 +6278,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.25252525252,
-          suffix: "%"
+          suffix: ""
     		}
     	],
     	uncommon: [
@@ -6286,7 +6286,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.25252525252,
-          suffix: "%"
+          suffix: ""
     		}
     	],
     	rare: [
@@ -6294,7 +6294,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.25252525252,
-          suffix: "%"
+          suffix: ""
     		}
     	],
     	epic: [
@@ -6302,7 +6302,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.25252525252,
-          suffix: "%"
+          suffix: ""
     		}
     	],
     	legendary: [
@@ -6310,7 +6310,7 @@ module.exports = {
     			stat: "Speed",
     			base: 0,
     			scaling: 0.25252525252,
-          suffix: "%"
+          suffix: ""
     		}
     	]
       },

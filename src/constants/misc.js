@@ -54,6 +54,8 @@ module.exports = {
         'Luck VI',
         'Scavenger 4',
         'Scavenger IV',
+        'Scavenger 5',
+        'Scavenger V',
         'Smite 6',
         'Smite VI',
         'Vampirism 6',

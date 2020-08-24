@@ -4454,7 +4454,7 @@ module.exports = {
     		  {
     			name: "damage",
     			base: 0.2,
-    			scaling: 0.2,
+    			scaling: 0.25050505050505,
     			rounding: 1
     		  }
     		],
@@ -4490,7 +4490,7 @@ module.exports = {
     		  {
     			name: "damage",
     			base: 0.2,
-    			scaling: 0.2,
+    			scaling: 0.25050505050505,
     			rounding: 1
     		  }
     		],
@@ -4523,8 +4523,8 @@ module.exports = {
     		scalings: [
     		  {
     			name: "superior",
-    			base: 0.5,
-    			scaling: 0.5,
+    			base: 0.1,
+    			scaling: 0.1,
     			rounding: 1
     		  }
     		],

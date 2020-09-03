@@ -7498,7 +7498,7 @@ module.exports = {
     		  {
     			name: "coins",
     			base: 0.1,
-    			scaling: 0.494949494,
+    			scaling: 0.0494949494,
     			rounding: 1
     		  }
     		],

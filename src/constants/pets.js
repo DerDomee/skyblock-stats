@@ -7956,272 +7956,271 @@ module.exports = {
 			type: "combat",
 			emoji: "🐑",
       stats: {
-	common: [
-		{
-			stat: "Crit Chance",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: "%"
-		},
-		{
-			stat: "Crit Damage",
-			base: 0.75,
-			scaling: 0.497475,
-			suffix: "%"
-		},
-		{
-			stat: "Strength",
-			base: 0.25,
-			scaling: 0.25,
-			suffix: ""
-		},
-		{
-			stat: "Magic Find",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		},
-		{
-			stat: "Intelligence",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		}
-	],
-	uncommon: [
-		{
-			stat: "Crit Chance",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: "%"
-		},
-		{
-			stat: "Crit Damage",
-			base: 0.75,
-			scaling: 0.497475,
-			suffix: "%"
-		},
-		{
-			stat: "Strength",
-			base: 0.25,
-			scaling: 0.25,
-			suffix: ""
-		},
-		{
-			stat: "Magic Find",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		},
-		{
-			stat: "Intelligence",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		}
-	],
-	rare: [
-		{
-			stat: "Crit Chance",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: "%"
-		},
-		{
-			stat: "Crit Damage",
-			base: 0.75,
-			scaling: 0.497475,
-			suffix: "%"
-		},
-		{
-			stat: "Strength",
-			base: 0.25,
-			scaling: 0.25,
-			suffix: ""
-		},
-		{
-			stat: "Magic Find",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		},
-		{
-			stat: "Intelligence",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		}
-	],
-	epic: [
-		{
-			stat: "Crit Chance",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: "%"
-		},
-		{
-			stat: "Crit Damage",
-			base: 0.75,
-			scaling: 0.497475,
-			suffix: "%"
-		},
-		{
-			stat: "Strength",
-			base: 0.25,
-			scaling: 0.25,
-			suffix: ""
-		},
-		{
-			stat: "Magic Find",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		},
-		{
-			stat: "Intelligence",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		}
-	],
-	legendary: [
-		{
-			stat: "Crit Chance",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: "%"
-		},
-		{
-			stat: "Crit Damage",
-			base: 0.75,
-			scaling: 0.497475,
-			suffix: "%"
-		},
-		{
-			stat: "Strength",
-			base: 0.25,
-			scaling: 0.25,
-			suffix: ""
-		},
-		{
-			stat: "Magic Find",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		},
-		{
-			stat: "Intelligence",
-			base: 0.1,
-			scaling: 0.1,
-			suffix: ""
-		}
-	]
-},
+      	common: [
+      		{
+      			stat: "Crit Chance",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Crit Damage",
+      			base: 0.75,
+      			scaling: 0.497475,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Strength",
+      			base: 0.25,
+      			scaling: 0.25,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Magic Find",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Intelligence",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		}
+      	],
+      	uncommon: [
+      		{
+      			stat: "Crit Chance",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Crit Damage",
+      			base: 0.75,
+      			scaling: 0.497475,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Strength",
+      			base: 0.25,
+      			scaling: 0.25,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Magic Find",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Intelligence",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		}
+      	],
+      	rare: [
+      		{
+      			stat: "Crit Chance",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Crit Damage",
+      			base: 0.75,
+      			scaling: 0.497475,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Strength",
+      			base: 0.25,
+      			scaling: 0.25,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Magic Find",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Intelligence",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		}
+      	],
+      	epic: [
+      		{
+      			stat: "Crit Chance",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Crit Damage",
+      			base: 0.75,
+      			scaling: 0.497475,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Strength",
+      			base: 0.25,
+      			scaling: 0.25,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Magic Find",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Intelligence",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		}
+      	],
+      	legendary: [
+      		{
+      			stat: "Crit Chance",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Crit Damage",
+      			base: 0.75,
+      			scaling: 0.497475,
+      			suffix: "%"
+      		},
+      		{
+      			stat: "Strength",
+      			base: 0.25,
+      			scaling: 0.25,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Magic Find",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		},
+      		{
+      			stat: "Intelligence",
+      			base: 0.1,
+      			scaling: 0.1,
+      			suffix: ""
+      		}
+      	]
+      },
 
-abilities: {
-	common: [
-		{
-			name: "Odyssey",
-			scalings: [],
-			lore: [
-				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
-			]
-		}
-	],
-	uncommon: [
-		{
-			name: "Odyssey",
-			scalings: [],
-			lore: [
-				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
-			]
-		},
-		{
-			name: "Legendary Constitution",
-			scalings: [],
-			lore: [
-				"§7Permanent §cRegeneration VI §7 and §4Strength VII"
-			]
-		}
-	],
-	rare: [
-		{
-			name: "Odyssey",
-			scalings: [],
-			lore: [
-				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
-			]
-		},
-		{
-			name: "Legendary Constitution",
-			scalings: [],
-			lore: [
-				"§7Permanent §cRegeneration VI §7 and §4Strength VII"
-			]
-		}
-	],
-	epic: [
-		{
-			name: "Odyssey",
-			scalings: [],
-			lore: [
-				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
-			]
-		},
-		{
-			name: "Legendary Constitution",
-			scalings: [],
-			lore: [
-				"§7Permanent §cRegeneration VI §7 and §4Strength VII"
-			]
-		}
-	],
-	legendary: [
-		{
-			name: "Odyssey",
-			scalings: [],
-			lore: [
-				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
-			]
-		},
-		{
-			name: "Legendary Constitution",
-			scalings: [],
-			lore: [
-				"§7Permanent §cRegeneration VI §7 and §4Strength VII"
-			]
-		},
-		{
-			name: "Perpetual Empathy",
-			scalings: [
-				{
-					name: "healing",
-					base: 1,
-					scaling: 0.020202020202,
-					rounding: 1
-				}
-			],
-			lore: [
-				"§7Heal nearby players for §a{{healing}}%§7 of the final damage you receive"
-			]
-		},
-		{
-			name: "King of Kings",
-			scalings: [
-				{
-					name: "strength",
-					base: 1,
-					scaling: 0.024242424242424,
-					rounding: 1
-				}
-			],
-			lore: [
-				"§7Gain §c+{{strength}}% Strength§7 when above §c85% Health§7"
-			]
-		}
-	]
-}
-			}
+      abilities: {
+      	common: [
+      		{
+      			name: "Odyssey",
+      			scalings: [],
+      			lore: [
+      				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
+      			]
+      		}
+      	],
+      	uncommon: [
+      		{
+      			name: "Odyssey",
+      			scalings: [],
+      			lore: [
+      				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
+      			]
+      		},
+      		{
+      			name: "Legendary Constitution",
+      			scalings: [],
+      			lore: [
+      				"§7Permanent §cRegeneration VI §7 and §4Strength VII"
+      			]
+      		}
+      	],
+      	rare: [
+      		{
+      			name: "Odyssey",
+      			scalings: [],
+      			lore: [
+      				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
+      			]
+      		},
+      		{
+      			name: "Legendary Constitution",
+      			scalings: [],
+      			lore: [
+      				"§7Permanent §cRegeneration VI §7 and §4Strength VII"
+      			]
+      		}
+      	],
+      	epic: [
+      		{
+      			name: "Odyssey",
+      			scalings: [],
+      			lore: [
+      				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
+      			]
+      		},
+      		{
+      			name: "Legendary Constitution",
+      			scalings: [],
+      			lore: [
+      				"§7Permanent §cRegeneration VI §7 and §4Strength VII"
+      			]
+      		}
+      	],
+      	legendary: [
+      		{
+      			name: "Odyssey",
+      			scalings: [],
+      			lore: [
+      				"§7While Diana's Mythological Ritual is active, mythological creatures you find scale depending on your Griffin's rarity"
+      			]
+      		},
+      		{
+      			name: "Legendary Constitution",
+      			scalings: [],
+      			lore: [
+      				"§7Permanent §cRegeneration VI §7 and §4Strength VII"
+      			]
+      		},
+      		{
+      			name: "Perpetual Empathy",
+      			scalings: [
+      				{
+      					name: "healing",
+      					base: 1,
+      					scaling: 0.020202020202,
+      					rounding: 1
+      				}
+      			],
+      			lore: [
+      				"§7Heal nearby players for §a{{healing}}%§7 of the final damage you receive"
+      			]
+      		},
+      		{
+      			name: "King of Kings",
+      			scalings: [
+      				{
+      					name: "strength",
+      					base: 1,
+      					scaling: 0.024242424242424,
+      					rounding: 1
+      				}
+      			],
+      			lore: [
+      				"§7Gain §c+{{strength}}% Strength§7 when above §c85% Health§7"
+      			]
+      		}
+      	]
+      }
 		}
 	},
 

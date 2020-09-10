@@ -392,7 +392,25 @@ module.exports = {
         ],
         TREASURE_RING: [
             'TREASURE_ARTIFACT'
-        ]
+        ],
+        BEASTMASTER_CREST_COMMON: [
+          'BEASTMASTER_CREST_UNCOMMON',
+          'BEASTMASTER_CREST_RARE',
+          'BEASTMASTER_CREST_EPIC',
+          'BEASTMASTER_CREST_LEGENDARY',
+        ],
+        BEASTMASTER_CREST_UNCOMMON: [
+          'BEASTMASTER_CREST_RARE',
+          'BEASTMASTER_CREST_EPIC',
+          'BEASTMASTER_CREST_LEGENDARY',
+        ],
+        BEASTMASTER_CREST_RARE: [
+          'BEASTMASTER_CREST_EPIC',
+          'BEASTMASTER_CREST_LEGENDARY',
+        ],
+        BEASTMASTER_CREST_EPIC: [
+          'BEASTMASTER_CREST_LEGENDARY',
+        ],
     },
 
     talisman_duplicates: {

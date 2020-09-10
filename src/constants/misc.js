@@ -410,7 +410,7 @@ module.exports = {
         ],
         BEASTMASTER_CREST_EPIC: [
           'BEASTMASTER_CREST_LEGENDARY',
-        ],
+        ]
     },
 
     talisman_duplicates: {
